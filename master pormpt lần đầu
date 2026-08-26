@@ -1,0 +1,706 @@
+TÔI MUỐN BẠN TIẾP TỤC XÂY DỰNG REPO GITHUB NÀY:
+
+https://github.com/phan-tan-7211/cpn
+
+Repo hiện là PUBLIC và tôi đã kết nối GitHub với ChatGPT, có quyền đọc/ghi repository.
+
+## 1. MỤC TIÊU CUỐI CÙNG
+
+Không muốn repo chỉ là kho tài liệu pháp luật.
+
+Hãy biến nó thành:
+
+# 📕 CẨM NANG VẬN HÀNH DOANH NGHIỆP 2026
+
+Mục tiêu là để CHỦ DOANH NGHIỆP có thể mở repo và biết:
+
+- Việc gì phải làm?
+- Khi nào phải làm?
+- Ai phải làm?
+- Làm như thế nào?
+- Cần chứng từ gì?
+- Lưu chứng từ ở đâu?
+- Hạn cuối là khi nào?
+- Sai thì xử lý thế nào?
+- Sai có nguy cơ bị phạt gì?
+- Căn cứ pháp lý nào?
+- Quy định đó có còn hiệu lực tại thời điểm hiện tại không?
+
+Mục tiêu thực tế là giúp doanh nghiệp vận hành đúng và giảm tối đa rủi ro bị cơ quan thuế/cơ quan quản lý xử phạt.
+
+KHÔNG được tuyên bố rằng có thể đảm bảo 100% không bị phạt.
+
+---
+
+# 2. NGUYÊN TẮC LÀM VIỆC
+
+Ngày hiện tại: 2026.
+
+PHẢI ưu tiên văn bản pháp luật đang có hiệu lực tại thời điểm hiện tại.
+
+Không được chỉ nhìn năm trong tên tài liệu rồi kết luận tài liệu đó còn đúng.
+
+Phải kiểm tra:
+
+1. Số hiệu văn bản
+2. Ngày ban hành
+3. Ngày có hiệu lực
+4. Văn bản sửa đổi/bổ sung
+5. Văn bản thay thế
+6. Quy định chuyển tiếp
+7. Đối tượng áp dụng
+8. Kỳ tính thuế/kỳ kế toán tương ứng
+
+Khi có quy định mới thay thế quy định cũ:
+
+- cập nhật nội dung vận hành sang quy định mới;
+- không xóa mất kiến thức cũ;
+- đánh dấu nội dung cũ là OBSOLETE;
+- nếu cần thì chuyển sang thư mục tài liệu lịch sử.
+
+KHÔNG được lấy video, TikTok, YouTube, Facebook, blog hoặc kinh nghiệm kế toán làm căn cứ pháp lý cuối cùng.
+
+Các nguồn này chỉ được đánh dấu:
+
+REFERENCE
+
+Nếu nội dung trong video/bài viết khác với luật thì ƯU TIÊN LUẬT.
+
+---
+
+# 3. CÁCH KIỂM TRA REPO
+
+Trước khi sửa:
+
+1. Đọc toàn bộ cấu trúc repository.
+2. Đọc README nếu có.
+3. Đọc các file Markdown.
+4. Đọc các tài liệu mới tôi vừa commit.
+5. Xác định file nào trùng nội dung.
+6. Xác định file nào có quy định cũ.
+7. Xác định file nào có quy định chưa đủ điều kiện/ngoại lệ.
+8. Xác định file nào đang nhầm giữa “kinh nghiệm thực tế” và “quy định pháp luật”.
+
+KHÔNG được bỏ qua các file cũ chỉ vì chúng có tên không rõ ràng.
+
+---
+
+# 4. HỆ THỐNG THƯ MỤC MỤC TIÊU
+
+Nếu phù hợp, tổ chức repo thành:
+
+00_MASTER
+01_BAT_DAU_DOANH_NGHIEP
+02_KE_TOAN
+03_THUE_GTGT
+04_THUE_TNDN
+05_THUE_TNCN
+06_HOA_DON
+07_LAO_DONG_BHXH
+08_NHAP_KHAU_LOGISTICS
+09_QUAN_TRI
+10_CHECKLIST
+11_XU_LY_SU_CO
+99_PHAP_LY_GOC
+
+Không nhất thiết phải di chuyển/xóa file ngay.
+
+Nếu repo hiện có cấu trúc tốt hơn thì giữ cấu trúc hợp lý, nhưng phải tạo được hệ thống logic.
+
+---
+
+# 5. TẠO "MASTER"
+
+Phải có một file trung tâm:
+
+00_MASTER/00_PHAP_LY_2026_MASTER.md
+
+File này phải trả lời:
+
+- Công ty đang áp dụng hệ thống pháp lý nào?
+- Văn bản nào là văn bản gốc?
+- Văn bản nào sửa đổi?
+- Văn bản nào đã hết hiệu lực?
+- Chủ đề nào đang được cập nhật?
+- Tài liệu nào trong repo là CURRENT?
+- Tài liệu nào REVIEW?
+- Tài liệu nào OBSOLETE?
+- Tài liệu nào chỉ REFERENCE?
+
+---
+
+# 6. PHÂN LOẠI TÀI LIỆU
+
+Mỗi tài liệu pháp lý/nghiệp vụ nên có header:
+
+TRẠNG THÁI: CURRENT / REVIEW / OBSOLETE / REFERENCE
+CẬP NHẬT: YYYY-MM-DD
+ĐỐI TƯỢNG ÁP DỤNG:
+VĂN BẢN CĂN CỨ:
+NGÀY HIỆU LỰC:
+
+Ý nghĩa:
+
+🟢 CURRENT
+Có thể dùng để vận hành.
+
+🟡 REVIEW
+Có thể còn đúng nhưng cần kiểm tra/cập nhật.
+
+🔴 OBSOLETE
+Không được dùng làm căn cứ nghiệp vụ hiện tại.
+
+⚪ REFERENCE
+Chỉ là tài liệu tham khảo.
+
+---
+
+# 7. QUAN TRỌNG: BIẾN LUẬT THÀNH SOP
+
+Đừng viết kiểu sách luật khô.
+
+Ví dụ KHÔNG viết:
+
+"Doanh nghiệp phải lập hóa đơn đúng thời điểm."
+
+Mà phải viết:
+
+## KHI BÁN HÀNG
+
+### Bước 1
+Xác định loại giao dịch.
+
+### Bước 2
+Xác định thời điểm phải lập hóa đơn.
+
+### Bước 3
+Kiểm tra thông tin khách hàng.
+
+### Bước 4
+Lập hóa đơn.
+
+### Bước 5
+Kiểm tra hóa đơn.
+
+### Bước 6
+Gửi hóa đơn.
+
+### Bước 7
+Lưu chứng từ giao hàng.
+
+### Bước 8
+Đối chiếu doanh thu với kế toán.
+
+### Hồ sơ phải có
+
+- Hợp đồng
+- Đơn hàng
+- Phiếu xuất kho
+- Biên bản giao hàng nếu áp dụng
+- Hóa đơn
+- Chứng từ thanh toán
+- Hồ sơ khác tùy giao dịch
+
+### Không được làm
+
+...
+
+### Nếu làm sai
+
+...
+
+### Rủi ro
+
+...
+
+### Căn cứ pháp lý
+
+...
+
+---
+
+# 8. TẠO "TRANSACTION CHECK"
+
+Đây là phần rất quan trọng.
+
+Mọi giao dịch lớn của doanh nghiệp phải có checklist.
+
+Ví dụ:
+
+MUA HÀNG
+
+1. Mua của ai?
+2. Có MST không?
+3. Có hợp đồng/đơn hàng không?
+4. Hàng có thực tế không?
+5. Có hóa đơn hợp pháp không?
+6. Có chứng từ giao nhận không?
+7. Giá mua có hợp lý không?
+8. Thanh toán bằng phương thức nào?
+9. Có điều kiện thanh toán đặc biệt để được tính thuế/khấu trừ không?
+10. Hạch toán vào hàng tồn kho hay chi phí?
+11. Hồ sơ đã đầy đủ chưa?
+
+Nếu thiếu hồ sơ:
+
+🟡 DỪNG — KIỂM TRA TRƯỚC KHI THANH TOÁN.
+
+Tương tự tạo checklist cho:
+
+- BÁN HÀNG
+- THU TIỀN
+- CHI TIỀN
+- MUA TÀI SẢN
+- TRẢ LƯƠNG
+- TẠM ỨNG
+- HOÀN ỨNG
+- NHẬP HÀNG
+- TRẢ HÀNG
+- HÓA ĐƠN SAI
+- ĐIỀU CHỈNH GIÁ
+- CHI PHÍ DỊCH VỤ
+
+---
+
+# 9. TẠO "SỔ ĐỎ — TUYỆT ĐỐI KHÔNG ĐƯỢC LÀM"
+
+Tạo một file riêng:
+
+10_CHECKLIST/SO_DO_LOI_RUI_RO_CAO.md
+
+Liệt kê những lỗi có nguy cơ cao.
+
+Mỗi lỗi:
+
+### Lỗi
+...
+
+### Vì sao sai
+...
+
+### Cách phòng tránh
+...
+
+### Nếu đã xảy ra
+...
+
+### Hồ sơ cần kiểm tra
+...
+
+### Rủi ro xử phạt
+...
+
+### Căn cứ pháp lý
+...
+
+Không được tự bịa mức phạt.
+
+Nếu chưa xác định chắc mức phạt thì ghi:
+
+"Chưa xác định — cần kiểm tra văn bản xử phạt hiện hành."
+
+---
+
+# 10. LỊCH VẬN HÀNH
+
+Tạo:
+
+10_CHECKLIST/HANG_NGAY.md
+10_CHECKLIST/HANG_TUAN.md
+10_CHECKLIST/HANG_THANG.md
+10_CHECKLIST/HANG_QUY.md
+10_CHECKLIST/CUOI_NAM.md
+
+Mỗi việc có:
+
+[ ] Công việc
+[ ] Người chịu trách nhiệm
+[ ] Hạn
+[ ] Hồ sơ
+[ ] Đã hoàn thành
+
+Không được tự bịa deadline.
+
+Deadline phải có căn cứ pháp lý hoặc ghi rõ đó là deadline nội bộ do doanh nghiệp tự đặt.
+
+---
+
+# 11. DOANH NGHIỆP SIÊU NHỎ
+
+Đây là phần đặc biệt quan trọng.
+
+Doanh nghiệp của tôi thuộc nhóm DOANH NGHIỆP SIÊU NHỎ.
+
+Phải kiểm tra và áp dụng đúng quy định kế toán dành cho doanh nghiệp siêu nhỏ hiện hành, đặc biệt:
+
+THÔNG TƯ 58/2026/TT-BTC
+
+Không được lấy quy định dành cho doanh nghiệp thông thường rồi áp vào doanh nghiệp siêu nhỏ một cách máy móc.
+
+Nhưng phải phân biệt:
+
+CHẾ ĐỘ KẾ TOÁN
+
+với
+
+PHÁP LUẬT THUẾ.
+
+Việc được áp dụng chế độ kế toán đơn giản KHÔNG có nghĩa tự động được miễn nghĩa vụ thuế.
+
+---
+
+# 12. TÌNH HUỐNG KINH DOANH CỦA TÔI
+
+Khi xây phần nghiệp vụ, cần đặc biệt chú ý mô hình:
+
+- Công ty tại Việt Nam.
+- Quy mô doanh nghiệp siêu nhỏ.
+- Có mua hàng từ Trung Quốc.
+- Có trường hợp hàng đi qua đơn vị logistics.
+- Có trường hợp logistics đứng tên hàng hóa/nhập khẩu rồi bán lại cho công ty tôi.
+- Công ty tôi mua lại hàng từ logistics.
+- Sau đó công ty bán hàng trong nước.
+
+Phải phân biệt rõ:
+
+A. Công ty trực tiếp nhập khẩu.
+
+B. Công ty mua hàng trong nước từ đơn vị nhập khẩu/logistics.
+
+Hai trường hợp này phải được hướng dẫn riêng về:
+
+- Hợp đồng
+- Hóa đơn
+- Chứng từ
+- Thuế
+- Hải quan
+- Giá vốn
+- Thanh toán
+- Quyền sở hữu hàng
+- Hồ sơ chứng minh giao dịch
+
+Không được suy đoán rằng hai trường hợp này giống nhau.
+
+---
+
+# 13. NGUYÊN TẮC VỀ HÓA ĐƠN
+
+Phải kiểm tra và cập nhật toàn bộ phần:
+
+- đăng ký sử dụng HĐĐT
+- hóa đơn có mã
+- hóa đơn không mã
+- thời điểm lập
+- nội dung hóa đơn
+- hóa đơn đầu vào
+- hóa đơn đầu ra
+- hóa đơn sai
+- điều chỉnh
+- thay thế
+- hủy nếu pháp luật cho phép
+- xử lý sai sót
+- lưu trữ
+- xử phạt
+
+Không được giữ cách viết cũ:
+
+"Thông báo phát hành hóa đơn rồi chờ cơ quan thuế duyệt"
+
+nếu quy định hiện hành không còn như vậy.
+
+---
+
+# 14. THUẾ
+
+Phải xây riêng:
+
+GTGT
+TNDN
+TNCN
+
+Không gộp thành một quyển chung quá sơ sài.
+
+Mỗi sắc thuế phải có:
+
+1. Đối tượng áp dụng
+2. Phương pháp
+3. Căn cứ tính
+4. Thuế suất
+5. Kỳ khai
+6. Thời hạn
+7. Chứng từ
+8. Hồ sơ
+9. Sai sót
+10. Quyết toán
+11. Xử phạt
+12. Căn cứ pháp lý
+
+---
+
+# 15. KHÔNG ĐƯỢC DÙNG CÁC CÂU TUYỆT ĐỐI NẾU LUẬT CÓ ĐIỀU KIỆN
+
+Ví dụ không viết:
+
+"Trên 5 triệu bắt buộc chuyển khoản."
+
+Mà phải xác định:
+
+- áp dụng cho loại giao dịch nào;
+- mục đích thuế nào;
+- thời kỳ nào;
+- điều kiện nào;
+- ngoại lệ nào.
+
+Không viết:
+
+"Có đầu vào mới được có đầu ra."
+
+Không viết:
+
+"Giám đốc luôn phải đóng BHXH."
+
+Không viết:
+
+"Tất cả doanh nghiệp khai thuế quý."
+
+Nếu quy định có điều kiện thì phải trình bày theo dạng DECISION TREE.
+
+---
+
+# 16. DECISION TREE
+
+Đối với vấn đề có nhiều trường hợp, phải dùng dạng:
+
+DOANH NGHIỆP CÓ...
+
+        ↓
+
+CÓ / KHÔNG
+
+        ↓
+
+TRƯỜNG HỢP A
+TRƯỜNG HỢP B
+
+        ↓
+
+QUY ĐỊNH ÁP DỤNG
+
+Điều này đặc biệt cần cho:
+
+- GTGT
+- HĐĐT
+- BHXH
+- TNCN
+- TNDN
+- nhập khẩu
+- thanh toán
+- chi phí được trừ.
+
+---
+
+# 17. CẬP NHẬT PHÁP LUẬT
+
+Khi tìm văn bản pháp luật mới, phải ghi:
+
+- Tên văn bản
+- Số hiệu
+- Ngày ban hành
+- Ngày hiệu lực
+- Văn bản bị sửa/thay thế
+- Điều khoản ảnh hưởng
+- Repo file nào bị ảnh hưởng
+- Cần sửa SOP nào
+
+Tạo:
+
+00_MASTER/CHANGELOG_PHAP_LY.md
+
+để sau này tôi biết tại sao nội dung đã thay đổi.
+
+---
+
+# 18. CÁCH SỬA REPO
+
+Tôi cho phép bạn:
+
+- tạo file mới;
+- sửa file;
+- tổ chức lại tài liệu;
+- tạo thư mục logic;
+- cập nhật nội dung;
+- commit trực tiếp vào repo.
+
+Nhưng:
+
+KHÔNG xóa dữ liệu quan trọng chỉ vì thấy cũ.
+
+Nếu tài liệu cũ không còn áp dụng:
+
+→ đánh dấu OBSOLETE hoặc chuyển sang khu vực lịch sử.
+
+Mỗi commit nên có message rõ ràng, ví dụ:
+
+"Update GTGT rules for 2026"
+
+"Rewrite invoice SOP"
+
+"Create SME accounting handbook"
+
+---
+
+# 19. QUY TRÌNH LÀM VIỆC
+
+Làm theo từng PHẦN, không làm một đống rồi báo "đã xong".
+
+Thứ tự:
+
+PHASE 1
+Audit toàn bộ repo.
+
+PHASE 2
+Xây MASTER.
+
+PHASE 3
+Xây "Hồ sơ doanh nghiệp của tôi".
+
+PHASE 4
+01 — Công việc sau thành lập.
+
+PHASE 5
+02 — Kế toán.
+
+PHASE 6
+03 — GTGT.
+
+PHASE 7
+04 — TNDN.
+
+PHASE 8
+05 — TNCN.
+
+PHASE 9
+06 — Hóa đơn.
+
+PHASE 10
+07 — BHXH/lao động.
+
+PHASE 11
+08 — Nhập khẩu/logistics.
+
+PHASE 12
+09 — Quản trị.
+
+PHASE 13
+10 — Checklist vận hành.
+
+PHASE 14
+11 — Xử lý sự cố.
+
+---
+
+# 20. SAU MỖI PHASE
+
+Báo cho tôi:
+
+### Đã kiểm tra
+...
+
+### Đã sửa
+...
+
+### File mới
+...
+
+### File đã đánh dấu OBSOLETE
+...
+
+### Quy định quan trọng đã thay đổi
+...
+
+### Việc tôi cần làm
+...
+
+### Commit
+...
+
+Không được nói "đã cập nhật toàn bộ" nếu chưa thực sự đọc và sửa toàn bộ.
+
+---
+
+# 21. NGUYÊN TẮC ĐỘ CHÍNH XÁC
+
+Đây là repository dùng để hỗ trợ vận hành doanh nghiệp và tránh sai phạm.
+
+Vì vậy:
+
+- Không đoán luật.
+- Không bịa số hiệu văn bản.
+- Không bịa ngày hiệu lực.
+- Không bịa mức phạt.
+- Không biến kinh nghiệm thành quy định pháp luật.
+- Nếu chưa chắc → phải kiểm tra nguồn chính thức.
+- Nếu có nhiều cách hiểu → ghi rõ điểm chưa chắc chắn.
+- Nếu quy định thay đổi theo thời gian → ghi rõ thời kỳ.
+
+Khi cần cập nhật luật mới, hãy sử dụng nguồn chính thống và kiểm tra văn bản mới nhất trước khi sửa repo.
+
+---
+
+# 22. ĐIỀU QUAN TRỌNG NHẤT
+
+Đừng xây một "cuốn sách luật".
+
+Hãy xây một:
+
+# HỆ THỐNG ĐIỀU HÀNH DOANH NGHIỆP
+
+Tức là:
+
+LUẬT
+↓
+QUY ĐỊNH
+↓
+GIẢI THÍCH
+↓
+QUY TRÌNH
+↓
+CHECKLIST
+↓
+CHỨNG TỪ
+↓
+KIỂM TRA
+↓
+LƯU HỒ SƠ
+↓
+XỬ LÝ SAI SÓT
+
+Tôi muốn cuối cùng có thể mở repo và tìm:
+
+"Tôi chuẩn bị mua hàng — tôi phải làm gì?"
+
+"Tôi chuẩn bị bán hàng — tôi phải làm gì?"
+
+"Tôi nhận một hóa đơn — phải kiểm tra gì?"
+
+"Hóa đơn bị sai — xử lý thế nào?"
+
+"Cuối tháng phải làm gì?"
+
+"Cuối quý phải làm gì?"
+
+"Cuối năm phải làm gì?"
+
+"Cơ quan thuế hỏi hồ sơ — tôi phải chuẩn bị gì?"
+
+"Nhân viên nghỉ việc — phải làm gì?"
+
+"Mua hàng Trung Quốc qua logistics — chứng từ nào cần có?"
+
+và nhận được câu trả lời dạng SOP/checklist có căn cứ pháp lý.
+
+BẮT ĐẦU BẰNG VIỆC ĐỌC REPO HIỆN TẠI VÀ AUDIT TOÀN BỘ NỘI DUNG.
+
+KHÔNG hỏi lại tôi những thông tin đã có trong prompt này.
+
+Sau khi audit xong, hãy sửa trực tiếp repo theo từng phase và commit các thay đổi.
