@@ -1,34 +1,39 @@
-# 90_KIEN_THUC_CU — KHO LỊCH SỬ / THAM KHẢO
+# 90_KIEN_THUC_CU — KHO LỊCH SỬ ĐÃ PHÂN LOẠI
 
 **TRẠNG THÁI:** REFERENCE / OBSOLETE  
 **CẬP NHẬT:** 2026-08-27  
-**MỤC ĐÍCH:** lưu toàn bộ kiến thức cũ, bài tổng hợp, transcript/video, checklist cũ, hướng dẫn cũ và các bản diễn giải chưa đủ điều kiện dùng làm SOP hiện hành.
+**NGUYÊN TẮC:** đây là kho truy nguyên, **không phải danh sách tài liệu phải đọc để vận hành doanh nghiệp**.
 
-> Tài liệu trong thư mục này **không được dùng trực tiếp làm căn cứ vận hành hiện hành**. Khi cần tái sử dụng một ý, phải kiểm tra lại với `00_MASTER/00_PHAP_LY_2026_MASTER.md`, văn bản pháp luật gốc đang có hiệu lực và SOP CURRENT tương ứng.
+> Muốn làm việc hiện hành: quay về `README.md`, `00_MASTER` và SOP CURRENT. Chỉ vào thư mục này khi cần xem nguồn cũ, cách hiểu cũ hoặc truy lại vì sao một SOP đã thay đổi.
 
-## QUY TẮC
+## ĐỌC NHƯ THẾ NÀO
 
-1. Giữ nguyên nội dung lịch sử để truy nguyên nguồn và cách hiểu cũ; không xóa chỉ vì đã lỗi thời.
-2. `OBSOLETE` = không dùng cho nghiệp vụ hiện tại, chỉ dùng nghiên cứu lịch sử/chuyển tiếp khi có căn cứ.
-3. `REFERENCE` = nguồn học tập/tham khảo; không phải căn cứ pháp lý cuối cùng.
-4. `REVIEW` cũ được đặt tại đây vì chưa đủ điều kiện vận hành. Muốn đưa trở lại SOP phải audit và viết lại thành tài liệu CURRENT.
-5. Video, blog, bài dịch vụ, transcript, bài tổng hợp và kinh nghiệm kế toán không được nâng thành quy định pháp luật.
-6. Tên file có “2026”, “mới nhất” hoặc tên một văn bản không làm cho nội dung tự động trở thành CURRENT.
-7. Văn bản luật/nghị định/thông tư gốc được quản lý riêng trong `99_PHAP_LY_GOC`; không trộn khái niệm “văn bản gốc” với “kiến thức cũ”.
+| Thư mục | Nội dung | Có nên đọc file thô? |
+|---|---|---|
+| `01_THANH_LAP_DN` | checklist/hướng dẫn doanh nghiệp mới cũ | Chỉ khi truy nguồn |
+| `02_KE_TOAN_TT58` | các bản diễn giải TT58 cũ, nhiều bản trùng và có lỗi | Không; đọc README nhóm trước |
+| `03_THUE_GTGT` | GTGT, thanh toán, khai bổ sung, phương pháp tính | Chỉ khi truy nguồn |
+| `04_THUE_TNDN` | TNDN, miễn/ưu đãi, bài tổng hợp cũ | Chỉ khi truy nguồn |
+| `05_THUE_TNCN` | TNCN cũ/transcript | Chỉ khi truy nguồn |
+| `06_HOA_DON` | hóa đơn, NĐ70 cũ, bài thời điểm/sai sót | Không dùng trực tiếp |
+| `07_BHXH_DKKD` | BHXH, đăng ký DN, phân loại DNNVV | Chỉ tham khảo |
+| `08_KE_TOAN_NEN` | kiến thức kế toán nền/tài liệu học | Có thể đọc như REFERENCE |
+| `09_NGUON_THAM_KHAO` | video, bài dịch vụ, báo giá, giải đáp, tổng hợp nguồn | Không coi là luật |
+| `98_META_KHONG_PHAI_KIEN_THUC` | prompt, link rời, tài liệu meta | Không dùng nghiệp vụ |
 
-## PHẠM VI ĐÃ CHUYỂN
+## QUY TẮC DỌN KHO
 
-- Các hướng dẫn tổng hợp cũ ở root.
-- Chuỗi tài liệu doanh nghiệp mới thành lập P1/P2/P3 và checklist cũ.
-- Các bài TT58 diễn giải cũ cần viết lại.
-- Các bài GTGT/TNDN/TNCN cũ hoặc chưa audit đủ.
-- Nhóm hóa đơn theo NĐ70/2025 và các bài hóa đơn cũ.
-- Tài liệu BHXH/ĐKKD tổng hợp cũ.
-- Tài liệu dịch vụ kế toán, video/transcript, link và bài tham khảo.
-- Snapshot hồ sơ doanh nghiệp cũ sau khi đã có single source of truth trong `00_MASTER`.
+1. **Không làm đẹp hàng loạt file nguyên bản.** File lịch sử được giữ gần nguyên trạng để bảo toàn nguồn/provenance.
+2. Nhóm có nhiều bản trùng được **gộp ở cấp chỉ mục/README**, không ghép nội dung thô rồi vô tình hợp nhất cả lỗi.
+3. File chứa nhận định sai hoặc quá rộng vẫn có thể giữ, nhưng phải nằm trong nhóm lịch sử và README nhóm phải nói rõ lỗi.
+4. File không phải kiến thức (`link`, prompt, dữ liệu meta) bị tách khỏi luồng đọc.
+5. Dữ liệu cá nhân chi tiết không được giữ trên cây public chỉ để “tham khảo”. Hồ sơ vận hành tối giản dùng `00_MASTER/01_HO_SO_DOANH_NGHIEP_CUA_TOI.md`.
+6. Bất kỳ ý nào muốn tái sử dụng phải đi qua: **SOURCE → CLAIM → VERIFY → SOP**.
 
-## CÁCH TRA CỨU
+## LƯU Ý BẢO MẬT
 
-- Cần quy trình hiện hành → bắt đầu từ `README.md` và `00_MASTER`.
-- Cần lịch sử/nguồn cũ → tìm trong thư mục này.
-- Cần căn cứ pháp luật → dùng văn bản pháp luật gốc và kiểm tra hiệu lực/sửa đổi trước khi kết luận.
+Đợt dọn này gỡ các snapshot cũ có thông tin định danh cá nhân chi tiết khỏi **cây hiện tại** của repo public. Tuy nhiên, Git là hệ thống có lịch sử: blob cũ có thể vẫn tồn tại trong commit lịch sử. Nếu cần xóa triệt để khỏi lịch sử public thì phải thực hiện một đợt **history rewrite/purge riêng**, có kiểm soát.
+
+## AUDIT
+
+Xem `00_AUDIT_DON_DEP_2026-08-27.md` để biết file nào được gộp logic, file nào chuyển nhóm, file nào bị loại khỏi luồng đọc và vì sao.
