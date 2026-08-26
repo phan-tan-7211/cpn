@@ -1,3 +1,15 @@
+# 🔴 OBSOLETE — KHÔNG DÙNG LÀM SOP/MẪU HIỆN HÀNH
+
+**TRẠNG THÁI:** OBSOLETE  
+**CẬP NHẬT:** 2026-08-27  
+**ÁP DỤNG LỊCH SỬ:** nội dung được tổng hợp theo Nghị định 70/2025/NĐ-CP  
+**LÝ DO:** Điều 43 Nghị định 254/2026/NĐ-CP quy định Nghị định 70/2025/NĐ-CP hết hiệu lực từ 01/07/2026.  
+**CẢNH BÁO:** File gốc dựa trên video transcript và có chi tiết “05 ngày làm việc” chưa được xác minh bằng điều/khoản pháp luật. Không dùng mẫu/quy trình này cho nghiệp vụ hiện tại.
+
+> Giữ file để tra cứu lịch sử. PHASE 9 sẽ tạo SOP xử lý sai sót hóa đơn hiện hành theo NĐ254/2026/NĐ-CP và TT91/2026/TT-BTC.
+
+---
+
 ---
 title: Biên bản xử lý sai sót hóa đơn - Nghị định 70/2025
 created: 2026-08-25

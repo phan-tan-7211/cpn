@@ -1,3 +1,15 @@
+# 🔴 OBSOLETE — KHÔNG DÙNG LÀM SOP HIỆN HÀNH
+
+**TRẠNG THÁI:** OBSOLETE  
+**CẬP NHẬT:** 2026-08-27  
+**ÁP DỤNG LỊCH SỬ:** nội dung theo Nghị định 70/2025/NĐ-CP trong thời kỳ văn bản còn hiệu lực  
+**LÝ DO:** Điều 43 Nghị định 254/2026/NĐ-CP quy định Nghị định 70/2025/NĐ-CP hết hiệu lực từ 01/07/2026.  
+**CẢNH BÁO:** File này tổng hợp từ YouTube. Không dùng làm căn cứ pháp lý cuối cùng cho hóa đơn lập từ 01/07/2026 trở đi.
+
+> Giữ file để tra cứu lịch sử. Quy tắc ký số hiện hành phải kiểm tra NĐ254/2026/NĐ-CP và TT91/2026/TT-BTC.
+
+---
+
 # THỜI ĐIỂM KÝ SỐ TRÊN HÓA ĐƠN ĐIỆN TỬ THEO NGHỊ ĐỊNH 70/2025/NĐ-CP
 
 **Nguồn tham khảo:** [Video Hướng Dẫn YouTube](https://youtu.be/DS6g7PDjuNY)  

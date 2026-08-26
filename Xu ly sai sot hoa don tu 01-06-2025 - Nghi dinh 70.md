@@ -1,3 +1,15 @@
+# 🔴 OBSOLETE — KHÔNG DÙNG LÀM SOP HIỆN HÀNH
+
+**TRẠNG THÁI:** OBSOLETE  
+**CẬP NHẬT:** 2026-08-27  
+**ÁP DỤNG LỊCH SỬ:** nội dung theo Nghị định 70/2025/NĐ-CP trong thời kỳ văn bản còn hiệu lực  
+**LÝ DO:** Điều 43 Nghị định 254/2026/NĐ-CP quy định Nghị định 123/2020/NĐ-CP và Nghị định 70/2025/NĐ-CP hết hiệu lực từ 01/07/2026.  
+**CẢNH BÁO:** Nguồn gốc file là video transcript; các chi tiết như “05 ngày làm việc” chưa được xác minh bằng điều/khoản pháp luật và **không được dùng để vận hành hiện tại**.
+
+> Giữ file này để tra cứu lịch sử. SOP hóa đơn hiện hành sẽ được viết lại theo NĐ254/2026/NĐ-CP và TT91/2026/TT-BTC.
+
+---
+
 ---
 title: Xử lý sai sót hóa đơn từ 01/06/2025 - Nghị định 70/2025
 created: 2026-08-25
