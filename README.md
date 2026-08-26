@@ -11,6 +11,7 @@ Repo này đang được chuyển từ kho tài liệu rời rạc thành **hệ
 3. **[Tiến độ các phase](00_MASTER/PHASE_STATUS.md)** — phase nào thực sự đã hoàn thành/commit.
 4. **[Audit repository 2026-08-27](00_MASTER/AUDIT_REPO_2026-08-27.md)** — lỗi, trùng lặp và rủi ro phát hiện trong repo ban đầu.
 5. **[Changelog pháp lý](00_MASTER/CHANGELOG_PHAP_LY.md)** — vì sao SOP/tài liệu thay đổi khi luật thay đổi.
+6. **[Kho kiến thức cũ](99_PHAP_LY_GOC/90_KIEN_THUC_CU/README.md)** — tài liệu lịch sử, REVIEW/REFERENCE/OBSOLETE; không dùng trực tiếp làm SOP hiện hành.
 
 ## QUY TẮC ĐỌC TÀI LIỆU
 
@@ -37,9 +38,10 @@ Repo này đang được chuyển từ kho tài liệu rời rạc thành **hệ
 10_CHECKLIST
 11_XU_LY_SU_CO
 99_PHAP_LY_GOC
+  └─ 90_KIEN_THUC_CU
 ```
 
-Các file cũ chưa được di chuyển hàng loạt để tránh mất ngữ cảnh/lịch sử. Chúng sẽ được phân loại và chuẩn hóa theo từng phase.
+**Kiến thức cũ đã được chuyển khỏi root vào `99_PHAP_LY_GOC/90_KIEN_THUC_CU/`.** Việc lưu tại đây nhằm bảo toàn lịch sử nhưng ngăn tài liệu cũ bị hiểu nhầm là quy trình hiện hành. Văn bản luật/nghị định/thông tư gốc được quản lý riêng trong `99_PHAP_LY_GOC` và sẽ tiếp tục được chuẩn hóa theo từng phase.
 
 ## NGUYÊN TẮC CUỐI CÙNG
 
