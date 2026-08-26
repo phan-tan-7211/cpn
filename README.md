@@ -7,25 +7,10 @@ Repo này đang được chuyển từ kho tài liệu rời rạc thành **hệ
 ## BẮT ĐẦU Ở ĐÂY
 
 1. **[MASTER pháp lý 2026](00_MASTER/00_PHAP_LY_2026_MASTER.md)** — văn bản nào hiện hành, văn bản nào sửa đổi, chủ đề nào đang REVIEW/OBSOLETE.
-2. **[Audit repository 2026-08-27](00_MASTER/AUDIT_REPO_2026-08-27.md)** — những lỗi, trùng lặp và rủi ro đã phát hiện trong repo ban đầu.
-3. **[Changelog pháp lý](00_MASTER/CHANGELOG_PHAP_LY.md)** — vì sao SOP/tài liệu thay đổi khi luật thay đổi.
-
-## TRẠNG THÁI XÂY DỰNG
-
-- ✅ PHASE 1 — Audit toàn repo
-- ✅ PHASE 2 — MASTER + changelog
-- ⏭ PHASE 3 — Hồ sơ doanh nghiệp của tôi
-- ⏳ PHASE 4 — Công việc sau thành lập
-- ⏳ PHASE 5 — Kế toán / TT58
-- ⏳ PHASE 6 — GTGT
-- ⏳ PHASE 7 — TNDN
-- ⏳ PHASE 8 — TNCN
-- ⏳ PHASE 9 — Hóa đơn
-- ⏳ PHASE 10 — BHXH / lao động
-- ⏳ PHASE 11 — Nhập khẩu / logistics
-- ⏳ PHASE 12 — Quản trị
-- ⏳ PHASE 13 — Checklist vận hành
-- ⏳ PHASE 14 — Xử lý sự cố
+2. **[Hồ sơ doanh nghiệp của tôi](00_MASTER/01_HO_SO_DOANH_NGHIEP_CUA_TOI.md)** — nguồn sự thật vận hành, không để SOP tự đoán dữ liệu doanh nghiệp.
+3. **[Tiến độ các phase](00_MASTER/PHASE_STATUS.md)** — phase nào thực sự đã hoàn thành/commit.
+4. **[Audit repository 2026-08-27](00_MASTER/AUDIT_REPO_2026-08-27.md)** — lỗi, trùng lặp và rủi ro phát hiện trong repo ban đầu.
+5. **[Changelog pháp lý](00_MASTER/CHANGELOG_PHAP_LY.md)** — vì sao SOP/tài liệu thay đổi khi luật thay đổi.
 
 ## QUY TẮC ĐỌC TÀI LIỆU
 
