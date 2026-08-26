@@ -6,9 +6,9 @@
 |---:|---|---|---|
 | 1 | Audit toàn repo | ✅ DONE | `db4b0a6e2a246eac68888cd012c7f9c2ea0fa58c` |
 | 2 | MASTER + changelog | ✅ DONE | `0347e383c2055aeb9c4b5d7d34c97fb5563c2aa6` |
-| 3 | Hồ sơ doanh nghiệp của tôi | ✅ DONE | commit hiện tại chứa file này |
-| 4 | Công việc sau thành lập | ⏭ NEXT | — |
-| 5 | Kế toán / TT58 | PENDING | — |
+| 3 | Hồ sơ doanh nghiệp của tôi | ✅ DONE | `9c9e4a02968e57e862f97efea32d869738f31e43` |
+| 4 | Công việc sau thành lập | ✅ DONE | commit hiện tại chứa file này |
+| 5 | Kế toán / TT58 | ⏭ NEXT | — |
 | 6 | GTGT | PENDING | — |
 | 7 | TNDN | PENDING | — |
 | 8 | TNCN | PENDING | — |
