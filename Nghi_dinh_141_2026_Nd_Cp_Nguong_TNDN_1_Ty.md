@@ -3,7 +3,7 @@
 > Tham chiếu: [[ZINITEK_2026/zinitek/90_TAI_LIEU_THAM_KHAO/Tu_Dien_Phap_Ly|Từ điển pháp lý]] | [[ZINITEK_2026/zinitek/90_TAI_LIEU_THAM_KHAO/04_TAI_LIEU_PHAP_LUAT_THAM_KHAO/Nghi_dinh_20_2026_Nd_Cp_Mien_TNDN|NĐ20/2026 miễn TNDN]]
 
 - **Số hiệu:** 141/2026/NĐ-CP
-- **Ngày ban hành:** 04/05/2026
+- **Ngày ban hành:** 29/04/2026
 - **Loại VB:** Nghị định của Chính phủ
 - **Nguồn URL:** https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-so-141-2026-nd-cp-nang-nguong-doanh-thu-khong-phai-chiu-thue-len-1-ty-dong-119260504154326455.htm
 
